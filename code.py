@@ -38,6 +38,7 @@ def wait_yaw():
 navigate_wait(z=1, frame_id='body', auto_arm=True)
 set_yaw(yaw=math.radians(45), frame_id='body')
 wait_yaw()
+rospy.sleep(3)
 navigate_wait(x=4, y=0, z=0, frame_id='body', speed=0.5)
 navigate_wait(x=-1.2, y=0, z=0, frame_id='body', speed=0.5)
 land_wait()
