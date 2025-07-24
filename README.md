@@ -7,4 +7,4 @@
 - `assets/` — видео выполнения миссии.
 
 ## Видеодемонстрация  
-Ссылка: 
+Ссылка: https://github.com/Vilyad/Small-and-cunning/blob/main/assets/task_complete.mp4
